@@ -3,7 +3,20 @@
   border: none;
   outline: none;
   padding: 10px;
-  width: 150px;
+  width: 85vw;
   line-height: 30px;
   margin-bottom: 30px;
 }
+
+@media (min-width: 768px) {
+  .search {
+    width: 300px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .search {
+    width: 200px;
+  }
+}
+
